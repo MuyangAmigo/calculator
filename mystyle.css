@@ -9,6 +9,8 @@ body {
   border: 1px solid;
   border-radius: 6px;
   display: inline-block;
+  margin-left: 20px;
+  box-shadow: 0 1px 0 #fcfbf9 inset, 0 10px 15px 	#c5c4cc;
 }
 
 button {
@@ -21,7 +23,7 @@ button {
 }
 
 button:active {
-  background-color: darkTan;
+  background-color: #dbdbdb;
   box-shadow: 3px 3px 3px #666 inset;
 }
 
@@ -37,7 +39,7 @@ button:active {
   width: 106px;
 }
 
-#output {
+.output {
   border: 1px solid;
   border-radius: 6px;
   margin: 3px 3px 0px 3px;
