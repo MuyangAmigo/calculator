@@ -20,6 +20,7 @@ button {
   border: 1px solid;
   border-radius: 6px;
   font-size: 12pt;
+
 }
 
 button:active {
@@ -44,7 +45,7 @@ button:active {
   border-radius: 6px;
   margin: 3px 3px 0px 3px;
   width: 190px;
-  height: 25px;
+  height: 30px;
   background-color:#F5F5DC;
   padding: 12px;
   padding-right: 15px;
