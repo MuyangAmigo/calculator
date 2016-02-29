@@ -15,7 +15,6 @@ for(var i = 0; i < keys.length; i++) {
 			decimalAdded = false;
 		}
 
-
     else if(btnVal == '=') {
     	var equation = inputVal;
     	var lastChar = equation[equation.length - 1];
@@ -30,7 +29,6 @@ for(var i = 0; i < keys.length; i++) {
 
     	decimalAdded = false;
     }
-
 
     else if(operators.indexOf(btnVal) > -1) {
 
@@ -71,7 +69,6 @@ for(var i = 0; i < keys.length; i++) {
 			input.innerHTML = " ";
       input.innerHTML = btnVal;
 		}
-
 
     else {
       input.innerHTML += btnVal;
